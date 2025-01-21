@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff0000;
+}
+
+.alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+thead th {
+    padding: 0.8rem;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+td, th {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+}
